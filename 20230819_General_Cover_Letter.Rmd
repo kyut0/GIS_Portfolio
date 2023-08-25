@@ -1,0 +1,60 @@
+---
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    fig_caption: true
+    highlights: pygments
+    number_sections: no
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  word_document: default
+urlcolor: blue
+indent: yes
+fontsize: 12pt
+header-includes:
+  - \usepackage[export]{adjustbox}
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load packages
+library(ggplot2)
+library(kableExtra)
+
+# Cover letter mad libs
+recruiter <- ""
+company <- "Climate"
+position <- "Geospatial Data Scientist"
+
+# As a adj1, adj2, and adj3, I embody many of the traits company is looking for in an ideal candidate.
+adj1 <- "motivated problem-solver" # cheerful collaborator, creative thinker
+adj2 <- "clear communicator" #quick learner, clear communicator
+adj3 <- "quick learner" #motivated problem-solver
+ 
+# I am passionate about p1, p2, and p3.
+p1 <- "visualizing data"
+p2 <- "solving complex problems"
+p3 <- "promoting sustainability"
+```
+
+\noindent To whom it may concern,  
+<br />  
+\indent I am writing to outline my qualifications and experiences, which firmly position me as an outstanding potential team member. With a background in data wrangling, geospatial analysis, and the art of data visualization, I possess strong problem-solving abilities coupled with a knack for coding. My multidisciplinary expertise lends itself to a wide range of applications, making me an ideal candidate for data-driven endeavors.  
+<br />   
+\indent During my tenure as a GIS & Energy Data Analyst at the University of Texas, Bureau of Economic Geology, I have honed comprehensive skills in GIS, coding, and effective communication. My track record includes successfully utilizing tools such as ArcMap and R to perform intricate subsurface research, develop peer-reviewed literature, and present findings through various channels.  
+<br />   
+\indent My experience as a Viticulture Research GIS Intern at E. & J. Gallo Winery has equipped me with the proficiency to manage large datasets, automate satellite data acquisition, and employ statistical techniques to drive decision-making. Collaborating with cross-functional teams, I contributed to optimizing wine grape yield and quality through informed irrigation strategies, solidifying my dedication to translating data into impactful solutions.  
+<br />   
+\indent While a remote sensing intern with NASA DEVELOP, I conducted thorough literature reviews, collected training data, deployed classification models, and performed site suitability analyses. My role demanded a keen eye for design as I created compelling visuals while ensuring adherence to stringent style guidelines. I excelled at developing workflows using ArcGIS, ENVI, Idrisi Terrset, and Google Earth Engine despite unforeseen challenges. Thriving in a collaborative environment, my team and I effectively communicated complex scientific concepts to both technical and non-technical audiences.  
+<br />   
+\indent My educational background, consisting of a Master of Arts in Economics and Big Data, a Bachelor of Arts in Economics and Big Data, and a Bachelor of Science in Geographic Information Science, demonstrates my curiosity, rapid learning capability, and unwavering commitment to acquiring expertise across domains. My skill set includes RStudio, R, ESRI ArcMap, QGIS, Google Earth Engine, ENVI, GitHub, Java, JavaScript, SQL, and Python.  
+<br />   
+\indent Driven by a genuine passion for data analysis, I am eager to contribute my insights, skills, and efficiency to the team. Thank you for considering my application. I look forward to the opportunity to discuss how my experiences align with your vision during an interview.  
+<br />   
+\noindent Best,  
+\includegraphics[width=1.75in]{signature.png}  
+\noindent Katherine (Katy) Yut  

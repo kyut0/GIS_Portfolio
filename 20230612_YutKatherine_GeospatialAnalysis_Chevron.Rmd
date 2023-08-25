@@ -1,0 +1,198 @@
+---
+title: "Geospatial Analysis Portfolio"
+author: "Katherine M. Yut"
+date: '`r format(Sys.Date(),format="%A, %B %d, %Y")`'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    fig_caption: true
+    highlights: pygments
+    number_sections: no
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  word_document: default
+urlcolor: blue
+toc: yes
+toc_float: yes
+indent: yes
+fontsize: 12pt
+header-includes:
+  - \usepackage[export]{adjustbox}
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load packages
+library(ggplot2)
+library(kableExtra)
+
+# Cover letter mad libs
+recruiter <- ""
+company <- "Chevron"
+position <- "Remote Sensing & Geospatial Specialist"
+
+# As a adj1, adj2, and adj3, I embody many of the traits company is looking for in an ideal candidate.
+adj1 <- "motivated problem-solver" # cheerful collaborator, creative thinker
+adj2 <- "clear communicator" #quick learner, clear communicator
+adj3 <- "quick learner" #motivated problem-solver
+ 
+# I am passionate about p1, p2, and p3.
+p1 <- "visualizing data"
+p2 <- "solving complex problems"
+p3 <- "promoting sustainability"
+```
+
+***
+
+\pagebreak
+
+# Cover Letter
+
+\begin{flushright}
+    \text{Austin, TX 78704}\\
+\end{flushright}
+
+\noindent To whom it may concern,  
+<br />  
+\indent I am writing to express my strong interest in the `r position` position. This document contains my resume, references, and an overview of my geospatial analysis experience. More information can be found at the relevant links, and I am reachable on [LinkedIn](https://www.linkedin.com/in/katherine-yut/) or via email.      
+<br />  
+\indent As a `r adj1`, `r adj2`, and `r adj3`, I embody many of the traits `r company` is looking for in an ideal candidate. Additionally, I have ample experience navigating quantitative analyses and am familiar with a variety of platforms, languages, and software, such as R, ESRI ArcGIS, Google Earth Engine, QGIS, ENVI, SQL, and Python. I am passionate about `r p1`, `r p2`, and `r p3`.  
+<br />  
+\indent I earned three degrees in less than five years, as evidence of my curiosity and ability to learn quickly. During my college career, I was also able to complete two formative internships: the first, a 10-week stint with NASA through the DEVELOP program, and the second, six months at E. & J. Gallo Winery. Most recently, I have been working for the Bureau of Economic Geology as a GIS Energy Analyst, completing projects in R and ArcMap to aid in energy and geology research. Ideally, I am looking for another opportunity with a challenging, collaborative environment that will further develop my geospatial analysis skills.  
+<br />  
+\indent Many of these skills were honed throughout my Geographic Information Science capstone. For this research project, I assisted with the initial stages of a [much larger research effort](https://ou.edu/research-norman/news-events/2020/ou-researchers-awarded-nasa-grant-to-study-disease-threats) studying the spread of zoonotic diseases in Central Asia, specifically along China's Belt and Road Initiative. My project developed a methodology for classifying the land use and land change in Tashkent, Uzbekistan, using spatiotemporal data in Google Earth Engine and RStudio. This methodology will be used to study the wildland-urban interface (WUI) and potential disease spread.   
+<br />  
+\indent Thank you for your time and consideration. It is my sincere hope that you get a sense for my commitment to geospatial analysis and creative, effective visualization. While the following document contains a representative sample of the relevant work I have done in the past, it is by no means a comprehensive account of who I am. I look forward to further discussing the position in the near future!  
+<br />    
+\noindent Cheers,  
+\includegraphics[width=1.75in]{signature.png}  
+\noindent Katherine (Katy) Yut  
+
+
+<!-- # Resume -->
+\includepdf[pages={1}]{YutK_resume_dec2022_v2.pdf}
+
+\pagebreak
+
+# References
+
+The following individuals are happy to vouch for my character and data analysis capabilities:
+
+1.  Katie Smye  
+    Bureau of Economic Geology | Research Associate  
+    katie.smye@beg.utexas.edu | (512)-471-6775  
+
+2.  Brent Sams  
+    E. & J. Gallo Winery | Research Scientist   
+    sams.brents@gmail.com | (209) 568-9317
+
+3.	Kirsten de Beurs  
+    Wageningen University | Chair & Professor     
+    kdebeurs@gmail.com | +3 (131) 748-2219
+
+
+\pagebreak
+
+
+# Sample Work
+
+### Bureau of Economic Geology
+
+\begin{center}
+\includegraphics[width=6.5in]{11102022_PM_Water_Cut_Katie_lowRes.jpg}
+\end{center}
+
+> *Figure 1: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
+
+\pagebreak
+
+\includegraphics[width=6.5in]{11142022_MB_DB_HV_Cum_Prod_BOE_Katy_lowRes.jpg}
+
+> *Figure 2: Map of total cumulative production of oil and gas production, in barrels of oil equilvalent, for all horizontal wells in Delaware, Midland, and Haynesville, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
+
+\begin{center}
+\includegraphics[width=6.5in]{10062022_PM_All_Wells_Completion_Date_Tim_lowRes.jpg}
+\end{center}
+
+> *Figure 3: Map of all wells drilled in the Permian Basin region, colored by decade completed. Created in ArcMap using data from IHS Enerdeq.*
+
+## Internships
+
+### E&J Gallo Winery (2020)
+  
+\includegraphics[width=6.5in]{Alberti_lowRes.png}  
+
+> *Figure 4: Kriging interpolated Brix (i.e., grape sugar content) values for 2017, 2018, and 2019 across a single block with sampling algorithm solutions for both Landsat and Sentinel imagery. Created in QGIS.*  
+
+\pagebreak
+
+### NASA DEVELOP (2019)  
+
+Forecasting Red Spruce Restoration Using NASA Earth Observations to Support Decision Making in the USFS Monongahela National Forest  
+<br />
+
+> **ABSTRACT**: In the Monongahela National Forest (MNF), situated in the Allegheny Highlands of West Virginia, extensive logging and mining practices have significantly altered the structure and composition of flora and fauna over the past two centuries. To aid red spruce restoration, this study mapped current and historical stands and identified non-native stands... [Read full abstract here.](https://develop.larc.nasa.gov/2019/summer/MonongahelaNationalForestEco.html)
+
+\includegraphics[width=6.5in]{NASAFig.png}
+
+> *Figure 5: Land classification change using Classification Tree Algorithm in Idrisi Terrset (left). Site suitability analysis created in ArcMap (right).*
+
+***
+
+\pagebreak
+
+# Relevant Coursework 
+
+```{r echo=FALSE, fig.width=8, fig.height=5}
+# Assign variables
+sem <- c("Fall 2016", "Spring 2017", "Fall 2017", "Spring 2018", "Fall 2018", 
+         "Spring 2019", "Fall 2019", "Spring 2020", "Sum 2020", "Spring 2021")
+num <- c(0, 0, 0, 0, 1, 0, 2, 4, 1, 3)
+ord <- 1:10
+cum <- cumsum(num)
+
+# Merge into dataframe
+df <- data.frame(ord, sem, num, cum)
+df$sem <- factor(df$sem, levels = df$sem[order(df$ord)])
+
+# Plot time series
+ggplot(data=df) +
+  geom_area(aes(x=sem, y=cum, group=1), fill="grey") +
+  geom_col(aes(x=sem, y=num, group=1), width=0.2) + 
+  scale_y_continuous(breaks = 0:11) +
+  labs(title="Data Analysis Experience", 
+       subtitle="R Courses Taken in College", 
+       x="Semester", 
+       y="Count") 
+```
+           
+> *Figure 6: Time series by semester showing cumulative (light grey) and count (dark grey) of RStudio data science classes taken. Created in RStudio using ggplot2.*  
+
+
+```{r echo=FALSE, fig.width=8, fig.height=5, warning=F}
+# Assign variables
+name <- c("Econometrics", "Spatial Statistics", "Stats for Decision Making", 
+          "Advanced GIS/Spatial Analysis", "Managerial Econ II", "Geoinformatics Capstone Seminar", 
+          "Bayesian Econometrics", "Intro to Math Stats", "Text Analytics", "Advanced Applied Stats", "Research in Economic Problems")
+grade <- c("A", "A", "A", "A", "A", "A", "B", "A", "A", "A", "Pass")
+sem <- c("Fall 2018", "Fall 2019", "Fall 2019", "Spring 2020", "Spring 2020", "Spring 2020", 
+         "Spring 2020", "Summer 2020", "Spring 2021", "Spring 2021", "Spring 2021")
+
+# Merge into dataframe
+df2 <- data.frame(name, grade, sem)
+
+# Create table
+df2 %>%
+  kbl(booktabs = T, linesep = "",
+      col.names=c("Course Name", "Grade", "Semester"),
+      align=c('l', 'c', 'l')) %>%
+  kable_paper(full_width = F) %>%
+  kable_styling(latex_options = c("hold_position", "striped"), stripe_index = c(1, 4:7, 9:11)) %>%
+  column_spec(2, bold = T, color = c(rep("OliveGreen", 6), "Mahogany", "OliveGreen", "OliveGreen", "OliveGreen", "gray"))
+```
+  
+> *Table 1: Table of each RStudio data science class and the grade earned. Created in RStudio using kableExtra.*  

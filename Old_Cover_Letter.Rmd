@@ -1,0 +1,67 @@
+---
+title: "Cover Letter"
+author: "Katherine M. Yut"
+date: '`r format(Sys.Date(),format="%A, %B %d, %Y")`'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    fig_caption: true
+    highlights: pygments
+    number_sections: no
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  word_document: default
+urlcolor: blue
+indent: yes
+fontsize: 12pt
+header-includes:
+  - \usepackage[export]{adjustbox}
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load packages
+library(ggplot2)
+library(kableExtra)
+
+# Cover letter mad libs
+recruiter <- ""
+company <- "Climate"
+position <- "Geospatial Data Scientist"
+
+# As a adj1, adj2, and adj3, I embody many of the traits company is looking for in an ideal candidate.
+adj1 <- "motivated problem-solver" # cheerful collaborator, creative thinker
+adj2 <- "clear communicator" #quick learner, clear communicator
+adj3 <- "quick learner" #motivated problem-solver
+ 
+# I am passionate about p1, p2, and p3.
+p1 <- "visualizing data"
+p2 <- "solving complex problems"
+p3 <- "promoting sustainability"
+```
+
+
+\begin{flushright}
+    \text{Austin, TX 78704}\\
+\end{flushright}
+
+\noindent To whom it may concern,  
+<br />  
+\indent I am writing to express my strong interest in the `r position` position. This document contains my resume, references, and an overview of my geospatial analysis experience. More information can be found at the relevant links, and I am reachable on [LinkedIn](https://www.linkedin.com/in/katherine-yut/) or via email.      
+<br />  
+\indent As a `r adj1`, `r adj2`, and `r adj3`, I embody many of the traits `r company` is looking for in an ideal candidate. Additionally, I have ample experience navigating quantitative analyses and am familiar with a variety of platforms, languages, and software, such as R, ESRI ArcGIS, Google Earth Engine, QGIS, ENVI, SQL, and Python. I am passionate about `r p1`, `r p2`, and `r p3`.  
+<br />  
+\indent I earned three degrees in less than five years, as evidence of my curiosity and ability to learn quickly. During my college career, I was also able to complete two formative internships: the first, a 10-week stint with NASA through the DEVELOP program, and the second, six months at E. & J. Gallo Winery. Most recently, I have been working for the Bureau of Economic Geology as a GIS Energy Analyst, completing projects in R and ArcMap to aid in energy and geology research. Ideally, I am looking for another opportunity with a challenging, collaborative environment that will further develop my geospatial analysis skills.  
+<br />  
+\indent Many of these skills were honed throughout my Geographic Information Science capstone. For this research project, I assisted with the initial stages of a [much larger research effort](https://ou.edu/research-norman/news-events/2020/ou-researchers-awarded-nasa-grant-to-study-disease-threats) studying the spread of zoonotic diseases in Central Asia, specifically along China's Belt and Road Initiative. My project developed a methodology for classifying the land use and land change in Tashkent, Uzbekistan, using spatiotemporal data in Google Earth Engine and RStudio. This methodology will be used to study the wildland-urban interface (WUI) and potential disease spread.   
+<br />  
+\indent Thank you for your time and consideration. It is my sincere hope that you get a sense for my commitment to geospatial analysis and creative, effective visualization. While the following document contains a representative sample of the relevant work I have done in the past, it is by no means a comprehensive account of who I am. I look forward to further discussing the position in the near future!  
+<br />    
+\noindent Cheers,  
+\includegraphics[width=1.75in]{signature.png}  
+\noindent Katherine (Katy) Yut  
+
