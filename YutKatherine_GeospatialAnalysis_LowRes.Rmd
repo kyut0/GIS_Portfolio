@@ -35,15 +35,13 @@ recruiter <- ""
 company <- "NASA"
 position <- "Program Scientist"
 
-# As a adj1, adj2, and adj3, I embody many of the traits company is looking for in an ideal candidate.
-adj1 <- "past DEVELOPer, motivated problem-solver" # cheerful collaborator, creative thinker
-adj2 <- "clear communicator" #quick learner, clear communicator
-adj3 <- "quick learner" #motivated problem-solver
- 
-# I am passionate about p1, p2, and p3.
-p1 <- "visualizing data"
-p2 <- "solving complex problems"
-p3 <- "promoting sustainability"
+# With a background in n1, n2, and n3, I possess strong sk1 coupled with sk2, making me an ideal candidate for data-driven endeavors.
+n1 <- "data wrangling" 
+n2 <- "geospatial analysis" 
+n3 <- "the art of data visualization" 
+
+sk1 <- "problem-solving abilities"
+sk2 <- "a knack for coding"
 ```
 
 ***
@@ -52,21 +50,19 @@ p3 <- "promoting sustainability"
 
 # Cover Letter
 
-\begin{flushright}
-    \text{Austin, TX 78704}\\
-\end{flushright}
-
 \noindent Dear `r company`,  
 <br />  
-\indent I am writing to express my strong interest in the `r position` position. This document contains my resume, references, and an overview of my geospatial analysis experience. More information can be found at the relevant links, and I am reachable on [LinkedIn](https://www.linkedin.com/in/katherine-yut/) or via email.      
-<br />  
-\indent As a `r adj1`, `r adj2`, and `r adj3`, I embody many of the traits `r company` is looking for in an ideal candidate. Additionally, I have ample experience navigating quantitative analyses and am familiar with a variety of platforms, languages, and software, such as R, ESRI ArcGIS, Google Earth Engine, QGIS, ENVI, SQL, and Python. I am passionate about `r p1`, `r p2`, and `r p3`.  
-<br />  
-\indent I earned three degrees in less than five years, as evidence of my curiosity and ability to learn quickly. During my college career, I was also able to complete two formative internships: the first, a 10-week stint with NASA through the DEVELOP program, and the second, six months at E. & J. Gallo Winery. Most recently, I have been working for the Bureau of Economic Geology as a GIS Energy Analyst, completing projects in R and ArcMap to aid in energy and geology research. Ideally, I am looking for another opportunity with a challenging, collaborative environment that will further develop my geospatial analysis skills.  
-<br />  
-\indent Many of these skills were honed throughout my Geographic Information Science capstone. For this research project, I assisted with the initial stages of a [much larger research effort](https://ou.edu/research-norman/news-events/2020/ou-researchers-awarded-nasa-grant-to-study-disease-threats) studying the spread of zoonotic diseases in Central Asia, specifically along China's Belt and Road Initiative. My project developed a methodology for classifying the land use and land change in Tashkent, Uzbekistan, using spatiotemporal data in Google Earth Engine and RStudio. This methodology will be used to study the wildland-urban interface (WUI) and potential disease spread.   
-<br />  
-\indent Thank you for your time and consideration. It is my sincere hope that you get a sense for my commitment to geospatial analysis and creative, effective visualization. While the following document contains a representative sample of the relevant work I have done in the past, it is by no means a comprehensive account of who I am. I look forward to further discussing the position in the near future!  
+\indent I am writing to express my interest in the `r position` position  at `r company` and outline my qualifications, which firmly position me as an outstanding potential team member. With a background in `r n1`, `r n2`, and `r n3`, I possess strong `r sk1` coupled with `r sk2`, making me an ideal candidate for data-driven endeavors.    
+<br />   
+\indent During my tenure as a GIS & Energy Data Analyst at the University of Texas, Bureau of Economic Geology, I have honed comprehensive skills in GIS, coding, and effective communication. My track record includes successfully utilizing tools such as ArcMap and R to perform intricate subsurface research, develop peer-reviewed literature, and present findings.  
+<br />   
+\indent My experience as a Viticulture Research GIS Intern at E. & J. Gallo Winery has equipped me with the proficiency to manage large datasets, automate satellite data acquisition, and employ statistical techniques to drive decision-making. Collaborating with cross-functional teams, I contributed to optimizing wine grape yield and quality through informed irrigation strategies, solidifying my dedication to translating data into impactful solutions.  
+<br />   
+\indent While a remote sensing intern with NASA DEVELOP, I conducted thorough literature reviews, collected training data, deployed classification models, and performed site suitability analyses. My role demanded a keen eye for design as I created compelling visuals while ensuring adherence to stringent style guidelines. I excelled at developing workflows using ArcGIS, ENVI, Idrisi Terrset, and Google Earth Engine despite unforeseen challenges. Thriving in a collaborative environment, my team and I effectively communicated complex scientific concepts to both technical and non-technical audiences.  
+<br />   
+\indent My educational background, consisting of a Master of Arts in Economics and Big Data, a Bachelor of Arts in Economics and Big Data, and a Bachelor of Science in Geographic Information Science, demonstrates my curiosity, rapid learning capability, and unwavering commitment to acquiring expertise across domains. My skill set includes RStudio, R, ESRI ArcMap, QGIS, Google Earth Engine, ENVI, GitHub, Java, JavaScript, SQL, and Python.  
+<br />   
+\indent Driven by a genuine passion for data analysis, I am eager to contribute my insights, skills, and efficiency to the team. Thank you for considering my application. I look forward to the opportunity to discuss how my experiences align with your vision during an interview.  
 <br />    
 \noindent Best,  
 \includegraphics[width=1.75in]{pdf_files/signature.png}  
