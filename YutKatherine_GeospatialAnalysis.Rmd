@@ -69,7 +69,7 @@ p3 <- "promoting sustainability"
 \indent Thank you for your time and consideration. It is my sincere hope that you get a sense for my commitment to geospatial analysis and creative, effective visualization. While the following document contains a representative sample of the relevant work I have done in the past, it is by no means a comprehensive account of who I am. I look forward to further discussing the position in the near future!  
 <br />    
 \noindent Cheers,  
-\includegraphics[width=1.75in]{signature.png}  
+\includegraphics[width=1.75in]{pdf_files/signature.png}  
 \noindent Katherine (Katy) Yut  
 
 
@@ -102,27 +102,27 @@ The following individuals are happy to vouch for my character and data analysis 
 
 ### Bureau of Economic Geology
 
-\includegraphics[width=6.5in]{11102022_PM_Water_Cut_Katie.jpeg}
+\includegraphics[width=6.5in]{pdf_files/11102022_PM_Water_Cut_Katie.jpeg}
 
 > *Figure 1: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
 
-\includegraphics[width=6.5in]{11142022_MB_DB_HV_Cum_Prod_BOE_Katy.jpeg}
+\includegraphics[width=6.5in]{pdf_files/11142022_MB_DB_HV_Cum_Prod_BOE_Katy.jpeg}
 
 > *Figure 2: Map of total cumulative production of oil and gas production, in barrels of oil equilvalent, for all horizontal wells in Delaware, Midland, and Haynesville, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
-\includegraphics[width=6.5in]{10062022_PM_All_Wells_Completion_Date_Tim.jpeg}
+\includegraphics[width=6.5in]{pdf_files/10062022_PM_All_Wells_Completion_Date_Tim.jpeg}
 
 > *Figure 3: Map of all wells drilled in the Permian Basin region, colored by decade completed. Created in ArcMap using data from IHS Enerdeq.*
 
 ## Internships
 
 ### E&J Gallo Winery (2020)
-\includegraphics[width=6.5in]{WorldGrapeProduction.png}  
+\includegraphics[width=6.5in]{pdf_files/WorldGrapeProduction.png}  
 
 > *Figure 4: World map of grape production by country. Map requested and produced within one business day. Created in QGIS.*
   
-\includegraphics[width=6.5in]{Alberti.png}  
+\includegraphics[width=6.5in]{pdf_files/Alberti.png}  
 
 > *Figure 5: Kriging interpolated Brix (i.e., grape sugar content) values for 2017, 2018, and 2019 across a single block with sampling algorithm solutions for both Landsat and Sentinel imagery. Created in QGIS.*  
 
@@ -135,7 +135,7 @@ Forecasting Red Spruce Restoration Using NASA Earth Observations to Support Deci
 
 > **ABSTRACT**: In the Monongahela National Forest (MNF), situated in the Allegheny Highlands of West Virginia, extensive logging and mining practices have significantly altered the structure and composition of flora and fauna over the past two centuries. To aid red spruce restoration, this study mapped current and historical stands and identified non-native stands... [Read full abstract here.](https://develop.larc.nasa.gov/2019/summer/MonongahelaNationalForestEco.html)
 
-\includegraphics[width=6.5in]{NASAFig.png}
+\includegraphics[width=6.5in]{pdf_files/NASAFig.png}
 
 > *Figure 6: Land classification change using Classification Tree Algorithm in Idrisi Terrset (left). Site suitability analysis created in ArcMap (right).*
 
@@ -149,9 +149,9 @@ Forecasting Red Spruce Restoration Using NASA Earth Observations to Support Deci
 
 Final Project, Interactive Shiny Web Application
 
-\includegraphics[width=6in]{penguinDash.png}
+\includegraphics[width=6in]{pdf_files/penguinDash.png}
 
-\includegraphics[width=6.5in]{penguinFig1.jpg}
+\includegraphics[width=6.5in]{pdf_files/penguinFig1.jpg}
 
 > *Figure 7: Interactive shiny web application (top). Histogram of penguin flipper length (in millimeters), colored by species (bottom). Created in RStudio.*
 
@@ -160,7 +160,7 @@ Final Project, Interactive Shiny Web Application
 Spatial Analysis of Oklahoma Homicide Rates    
 <br />    
   
-\includegraphics[width=6.5in]{advancedGIS.png}
+\includegraphics[width=6.5in]{pdf_files/advancedGIS.png}
 
 > *Figure 8: Map of median household income by US Census tract in Oklahoma, with inset maps of Oklahoma City (left) and Tulsa (right). Created in RStudio. See the full project [here](https://docs.google.com/document/d/1jHp_AGw8pgljKzNk5uq4B22E7ThuG6GuwGQUpMq80rQ/edit?usp=sharing).*
 
@@ -171,7 +171,7 @@ Remote Sensing Analysis of Tashkent, Uzbekistan:
 Classification Algorithms in Relation to China's Belt and Road Initiative  
 <br />   
 
-\includegraphics[width=7in]{LC.png}  
+\includegraphics[width=7in]{pdf_files/LC.png}  
 
 > *Figure 9: Land change model output showing wildland-urban interactions in Tashkent, Uzbekistan for the past two decades. Created in RStudio. Read the final paper [here](https://docs.google.com/document/d/1-o5xDdMhyRrh9HsPgWNMQKh8G-qdN3Ix5bGZMiKhgQI/edit?usp=sharing) and see the full project [here](https://drive.google.com/file/d/14mGFsjwAPgD3zB5fC9TVQnENcrOI7dFL/view?usp=sharing).*
 
