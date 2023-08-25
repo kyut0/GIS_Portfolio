@@ -69,7 +69,7 @@ p3 <- "promoting sustainability"
 \indent Thank you for your time and consideration. It is my sincere hope that you get a sense for my commitment to geospatial analysis and creative, effective visualization. While the following document contains a representative sample of the relevant work I have done in the past, it is by no means a comprehensive account of who I am. I look forward to further discussing the position in the near future!  
 <br />    
 \noindent Best,  
-\includegraphics[width=1.75in]{signature.png}  
+\includegraphics[width=1.75in]{pdf_files/signature.png}  
 \noindent Katherine (Katy) Yut  
 
 
@@ -103,19 +103,19 @@ The following individuals are happy to vouch for my character and data analysis 
 ### Bureau of Economic Geology
 
 \begin{center}
-\includegraphics[width=6.5in]{11102022_PM_Water_Cut_Katie_lowRes.jpg}
+\includegraphics[width=6.5in]{pdf_files/11102022_PM_Water_Cut_Katie_lowRes.jpg}
 \end{center}
 
 > *Figure 1: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
 \pagebreak
 
-\includegraphics[width=6.5in]{11142022_MB_DB_HV_Cum_Prod_BOE_Katy_lowRes.jpg}
+\includegraphics[width=6.5in]{pdf_files/11142022_MB_DB_HV_Cum_Prod_BOE_Katy_lowRes.jpg}
 
 > *Figure 2: Map of total cumulative production of oil and gas production, in barrels of oil equilvalent, for all horizontal wells in Delaware, Midland, and Haynesville, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
 \begin{center}
-\includegraphics[width=6.5in]{10062022_PM_All_Wells_Completion_Date_Tim_lowRes.jpg}
+\includegraphics[width=6.5in]{pdf_files/10062022_PM_All_Wells_Completion_Date_Tim_lowRes.jpg}
 \end{center}
 
 > *Figure 3: Map of all wells drilled in the Permian Basin region, colored by decade completed. Created in ArcMap using data from IHS Enerdeq.*
@@ -124,7 +124,7 @@ The following individuals are happy to vouch for my character and data analysis 
 
 ### E&J Gallo Winery (2020)
   
-\includegraphics[width=6.5in]{Alberti_lowRes.png}  
+\includegraphics[width=6.5in]{pdf_files/Alberti_lowRes.png}  
 
 > *Figure 4: Kriging interpolated Brix (i.e., grape sugar content) values for 2017, 2018, and 2019 across a single block with sampling algorithm solutions for both Landsat and Sentinel imagery. Created in QGIS.*  
 
@@ -137,7 +137,7 @@ Forecasting Red Spruce Restoration Using NASA Earth Observations to Support Deci
 
 > **ABSTRACT**: In the Monongahela National Forest (MNF), situated in the Allegheny Highlands of West Virginia, extensive logging and mining practices have significantly altered the structure and composition of flora and fauna over the past two centuries. To aid red spruce restoration, this study mapped current and historical stands and identified non-native stands... [Read full abstract here.](https://develop.larc.nasa.gov/2019/summer/MonongahelaNationalForestEco.html)
 
-\includegraphics[width=6.5in]{NASAFig.png}
+\includegraphics[width=6.5in]{pdf_files/NASAFig.png}
 
 > *Figure 5: Land classification change using Classification Tree Algorithm in Idrisi Terrset (left). Site suitability analysis created in ArcMap (right).*
 
