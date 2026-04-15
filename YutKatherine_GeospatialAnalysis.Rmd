@@ -70,7 +70,7 @@ sk2 <- "a knack for coding"
 
 
 <!-- # Resume -->
-\includepdf[pages={1}]{YutK_resume_dec2022_v2.pdf}
+\includepdf[pages={1}]{pdf_files/YutK_Resume_Mar2026.pdf}
 
 \pagebreak
 
@@ -78,17 +78,17 @@ sk2 <- "a knack for coding"
 
 The following individuals are happy to vouch for my character and data analysis capabilities:
 
-1.  Katie Smye  
+1.  Chip Thompson
+    Grassroots Carbon | Chief Financial Officer  
+    chip@buildgrassroots.com | (210) 687-3594  
+
+2.  Katie Smye  
     Bureau of Economic Geology | Research Associate  
     katie.smye@beg.utexas.edu | (512)-471-6775  
 
-2.  Brent Sams  
+3.  Brent Sams  
     E. & J. Gallo Winery | Research Scientist   
     sams.brents@gmail.com | (209) 568-9317
-
-3.	Kirsten de Beurs  
-    Wageningen University | Chair & Professor     
-    kdebeurs@gmail.com | +3 (131) 748-2219
 
 
 \pagebreak
@@ -96,31 +96,37 @@ The following individuals are happy to vouch for my character and data analysis 
 
 # Sample Work
 
+### Grassroots Carbon
+
+\includegraphics[width=6.5in]{pdf_files/SNAPGRAZE_Accruals_Map.png}
+
+> *Figure 1: Heatmap of SNAPGRAZE model outputs, showing SOC accrual potential on a ranch in Texas. Created in Python using matplotlib and uber H3 hexagons.*  
+
 ### Bureau of Economic Geology
 
 \includegraphics[width=6.5in]{pdf_files/11102022_PM_Water_Cut_Katie.jpeg}
 
-> *Figure 1: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
+> *Figure 2: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
 
 \includegraphics[width=6.5in]{pdf_files/11142022_MB_DB_HV_Cum_Prod_BOE_Katy.jpeg}
 
-> *Figure 2: Map of total cumulative production of oil and gas production, in barrels of oil equilvalent, for all horizontal wells in Delaware, Midland, and Haynesville, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
+> *Figure 3: Map of total cumulative production of oil and gas production, in barrels of oil equilvalent, for all horizontal wells in Delaware, Midland, and Haynesville, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
 
 \includegraphics[width=6.5in]{pdf_files/10062022_PM_All_Wells_Completion_Date_Tim.jpeg}
 
-> *Figure 3: Map of all wells drilled in the Permian Basin region, colored by decade completed. Created in ArcMap using data from IHS Enerdeq.*
+> *Figure 4: Map of all wells drilled in the Permian Basin region, colored by decade completed. Created in ArcMap using data from IHS Enerdeq.*
 
 ## Internships
 
 ### E&J Gallo Winery (2020)
 \includegraphics[width=6.5in]{pdf_files/WorldGrapeProduction.png}  
 
-> *Figure 4: World map of grape production by country. Map requested and produced within one business day. Created in QGIS.*
+> *Figure 5: World map of grape production by country. Map requested and produced within one business day. Created in QGIS.*
   
 \includegraphics[width=6.5in]{pdf_files/Alberti.png}  
 
-> *Figure 5: Kriging interpolated Brix (i.e., grape sugar content) values for 2017, 2018, and 2019 across a single block with sampling algorithm solutions for both Landsat and Sentinel imagery. Created in QGIS.*  
+> *Figure 6: Kriging interpolated Brix (i.e., grape sugar content) values for 2017, 2018, and 2019 across a single block with sampling algorithm solutions for both Landsat and Sentinel imagery. Created in QGIS.*  
 
 \pagebreak
 
@@ -133,94 +139,4 @@ Forecasting Red Spruce Restoration Using NASA Earth Observations to Support Deci
 
 \includegraphics[width=6.5in]{pdf_files/NASAFig.png}
 
-> *Figure 6: Land classification change using Classification Tree Algorithm in Idrisi Terrset (left). Site suitability analysis created in ArcMap (right).*
-
-***
-
-\pagebreak
-
-## Coursework  
-
-### Advanced Applied Statistics
-
-Final Project, Interactive Shiny Web Application
-
-\includegraphics[width=6in]{pdf_files/penguinDash.png}
-
-\includegraphics[width=6.5in]{pdf_files/penguinFig1.jpg}
-
-> *Figure 7: Interactive shiny web application (top). Histogram of penguin flipper length (in millimeters), colored by species (bottom). Created in RStudio.*
-
-
-### Advanced GIS Final Project  
-Spatial Analysis of Oklahoma Homicide Rates    
-<br />    
-  
-\includegraphics[width=6.5in]{pdf_files/advancedGIS.png}
-
-> *Figure 8: Map of median household income by US Census tract in Oklahoma, with inset maps of Oklahoma City (left) and Tulsa (right). Created in RStudio. See the full project [here](https://docs.google.com/document/d/1jHp_AGw8pgljKzNk5uq4B22E7ThuG6GuwGQUpMq80rQ/edit?usp=sharing).*
-
-\pagebreak
-
-### Capstone: Geoinformatics Seminar  
-Remote Sensing Analysis of Tashkent, Uzbekistan:  
-Classification Algorithms in Relation to China's Belt and Road Initiative  
-<br />   
-
-\includegraphics[width=7in]{pdf_files/LC.png}  
-
-> *Figure 9: Land change model output showing wildland-urban interactions in Tashkent, Uzbekistan for the past two decades. Created in RStudio. Read the final paper [here](https://docs.google.com/document/d/1-o5xDdMhyRrh9HsPgWNMQKh8G-qdN3Ix5bGZMiKhgQI/edit?usp=sharing) and see the full project [here](https://drive.google.com/file/d/14mGFsjwAPgD3zB5fC9TVQnENcrOI7dFL/view?usp=sharing).*
-
-\pagebreak
-
-# Relevant Coursework 
-
-```{r echo=FALSE, fig.width=8, fig.height=5}
-# Assign variables
-sem <- c("Fall 2016", "Spring 2017", "Fall 2017", "Spring 2018", "Fall 2018", 
-         "Spring 2019", "Fall 2019", "Spring 2020", "Sum 2020", "Spring 2021")
-num <- c(0, 0, 0, 0, 1, 0, 2, 4, 1, 3)
-ord <- 1:10
-cum <- cumsum(num)
-
-# Merge into dataframe
-df <- data.frame(ord, sem, num, cum)
-df$sem <- factor(df$sem, levels = df$sem[order(df$ord)])
-
-# Plot time series
-ggplot(data=df) +
-  geom_area(aes(x=sem, y=cum, group=1), fill="grey") +
-  geom_col(aes(x=sem, y=num, group=1), width=0.2) + 
-  scale_y_continuous(breaks = 0:11) +
-  labs(title="Data Analysis Experience", 
-       subtitle="R Courses Taken in College", 
-       x="Semester", 
-       y="Count") 
-```
-           
-> *Figure 10: Time series by semester showing cumulative (light grey) and count (dark grey) of RStudio data science classes taken. Created in RStudio using ggplot2.*  
-
-
-```{r echo=FALSE, fig.width=8, fig.height=5, warning=F}
-# Assign variables
-name <- c("Econometrics", "Spatial Statistics", "Stats for Decision Making", 
-          "Advanced GIS/Spatial Analysis", "Managerial Econ II", "Geoinformatics Capstone Seminar", 
-          "Bayesian Econometrics", "Intro to Math Stats", "Text Analytics", "Advanced Applied Stats", "Research in Economic Problems")
-grade <- c("A", "A", "A", "A", "A", "A", "B", "A", "A", "A", "Pass")
-sem <- c("Fall 2018", "Fall 2019", "Fall 2019", "Spring 2020", "Spring 2020", "Spring 2020", 
-         "Spring 2020", "Summer 2020", "Spring 2021", "Spring 2021", "Spring 2021")
-
-# Merge into dataframe
-df2 <- data.frame(name, grade, sem)
-
-# Create table
-df2 %>%
-  kbl(booktabs = T, linesep = "",
-      col.names=c("Course Name", "Grade", "Semester"),
-      align=c('l', 'c', 'l')) %>%
-  kable_paper(full_width = F) %>%
-  kable_styling(latex_options = c("hold_position", "striped"), stripe_index = c(1, 4:7, 9:11)) %>%
-  column_spec(2, bold = T, color = c(rep("OliveGreen", 6), "Mahogany", "OliveGreen", "OliveGreen", "OliveGreen", "gray"))
-```
-  
-> *Table 1: Table of each RStudio data science class and the grade earned. Created in RStudio using kableExtra.*  
+> *Figure 7: Land classification change using Classification Tree Algorithm in Idrisi Terrset (left). Site suitability analysis created in ArcMap (right).*
