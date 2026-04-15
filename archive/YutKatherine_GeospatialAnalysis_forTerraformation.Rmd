@@ -1,0 +1,107 @@
+---
+title: "Geospatial Analysis Portfolio"
+author: "Katherine M. Yut"
+date: '`r format(Sys.Date(),format="%A, %B %d, %Y")`'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    fig_caption: true
+    highlights: pygments
+    number_sections: no
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  word_document: default
+urlcolor: blue
+toc: yes
+toc_float: yes
+indent: yes
+fontsize: 12pt
+header-includes:
+  - \usepackage[export]{adjustbox}
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load packages
+library(ggplot2)
+library(kableExtra)
+
+# Cover letter mad libs
+recruiter <- ""
+company <- "Terraformation"
+position <- "Program Scientist"
+
+# With a background in n1, n2, and n3, I possess strong sk1 coupled with sk2, making me an ideal candidate for data-driven endeavors.
+n1 <- "geospaital data wrangling" 
+n2 <- "data engineering pipeline orchestration" 
+n3 <- "the art of data visualization" 
+
+sk1 <- "problem-solving abilities"
+sk2 <- "a knack for coding"
+```
+
+***
+
+\pagebreak
+
+# Cover Letter
+
+\noindent To Gianna, Nicole, and Jade,  
+<br />  
+\indent I am writing to express my strong interest in a position  at `r company` and outline my qualifications, which firmly position me as an outstanding potential team member. With a background in `r n1`, `r n2`, and `r n3`, I possess strong `r sk1` coupled with `r sk2`, making me an ideal candidate for scaling data-driven endeavors.    
+<br />   
+\indent Rather than give an overview of each of my previous roles, I would like to focus on the growth I've achieved in my current role with Grassroots Carbon. Starting as a Carbon Technical Manager (a non-specific title), my work was underpinned by automating geospatial flows using R and Python. In that time, I used many of the skills I developed throughout college and in the following years. However, within the last year, I have advanced to a Data Engineer, acquiring skills such as writing advanced Python, deploying pipelines via Docker containerization, managing quality checks using the Pydantic framework and a custom-built Streamlit dashboard, maintaining documentation in GitHub, and more.  
+<br />   
+\indent I am highly motivated to learn quickly and tackle new problems often. I am a pleasure to work with and am happy to provide more informal references who can support this claim. I am fully capable of working independently when necessary, but love to collaborate with others--I believe that working together has synergistic effects where the sum is greater than its parts. Providing support to and being supported by one another enhances effective communication, allowing the startup machine to run efficiently.  
+<br />   
+\indent My educational background, consisting of a Master of Arts in Economics and Big Data, a Bachelor of Arts in Economics and Big Data, and a Bachelor of Science in Geographic Information Science, demonstrates my curiosity, rapid learning capability, and unwavering commitment to acquiring expertise across domains. My current skill set includes Python, GitHub, Docker, CI/CD, R, ESRI ArcGIS, QGIS, Google Earth Engine, and SQL.  
+<br />    
+\indent Driven by a genuine passion for solving interesting problems with kind people, I am eager to contribute my insights, skills, and efficiency to the team. Thank you for considering my candidacy; I hope we can find a mutually beneficial alignment for a role within Terraformation.  
+<br />    
+\noindent Best,  
+\includegraphics[width=1.75in]{pdf_files/signature.png}  
+\noindent Katherine (Katy) Yut  
+
+
+<!-- # Resume -->
+\includepdf[pages={1}]{YutK_Resume_Mar2026.pdf}
+
+\pagebreak
+
+# References
+
+The following individuals are happy to vouch for my character and data analysis capabilities:
+
+1.  Chip Thompson
+    Grassroots Carbon | Chief Financial Officer  
+    chip@buildgrassroots.com | (210) 687-3594  
+
+2.  Katie Smye  
+    Bureau of Economic Geology | Research Associate  
+    katie.smye@beg.utexas.edu | (512)-471-6775  
+
+3.  Brent Sams  
+    E. & J. Gallo Winery | Research Scientist   
+    sams.brents@gmail.com | (209) 568-9317
+
+
+\pagebreak
+
+
+# Sample Work
+
+### Grassroots Carbon
+
+\includegraphics[width=6.5in]{pdf_files/SNAPGRAZE_Accruals_Map.png}
+
+> *Figure 1: Heatmap of SNAPGRAZE model outputs, showing SOC accrual potential on a ranch in Texas. Created in Python using matplotlib and uber H3 hexagons.*  
+
+### Bureau of Economic Geology
+
+\includegraphics[width=6.5in]{pdf_files/11102022_PM_Water_Cut_Katie.jpeg}
+
+> *Figure 2: Map of Water Cut (Produced Water / Produced Oil + Produced Water) for all horizontal wells in the Permian Basin, aggregated on square mile blocks. Created in ArcMap using data from IHS Enerdeq.*  
