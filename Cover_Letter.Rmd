@@ -1,0 +1,58 @@
+---
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+    fig_caption: true
+    highlights: pygments
+    number_sections: no
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  word_document: default
+urlcolor: blue
+indent: yes
+fontsize: 12pt
+header-includes:
+  - \usepackage[export]{adjustbox}
+  - \usepackage{pdfpages}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load packages
+library(ggplot2)
+library(kableExtra)
+
+# Cover letter mad libs
+recruiter <- ""
+company <- "Climate"
+position <- "Geospatial Data Scientist"
+
+# As a adj1, adj2, and adj3, I embody many of the traits company is looking for in an ideal candidate.
+adj1 <- "motivated problem-solver" # cheerful collaborator, creative thinker
+adj2 <- "clear communicator" #quick learner, clear communicator
+adj3 <- "quick learner" #motivated problem-solver
+ 
+# I am passionate about p1, p2, and p3.
+p1 <- "visualizing data"
+p2 <- "solving complex problems"
+p3 <- "promoting sustainability"
+```
+
+\noindent To whom it may concern,  
+<br />  
+\indent I am writing to outline my distinct skill set, which aptly positions me as a strong candidate for this role. I am an extremely voracious learner, having earned two undergraduate and one graduate degree in five years, as well as accelerating from a Python novice to a Data Engineer in less than a year and a half. In addition to writing over ten thousand lines of code by hand, I am also adept at leveraging new tools, such as Claude, Gemini, and Copilot, to accelerate my work and place in the top 5 of 27 in our portfolio-wide AI competition. I have quickly acquired skills in Docker containerization, automating deployment using cron and GitHub Actions, hitting APIs (such as Salesforce), building ETL pipelines from start to finish, designing front-end applications using Streamlit, and using Pydantic framework for data validation.    
+<br />   
+\indent My current role as a Data Engineer at Grassroots Carbon has been characterized by immense growth and self-driven skill acquisition, from soil carbon to coding. I tackle problems as I encounter them, often before they become business critical issues. I have ample background in geospatial datasets, having studied GIS and applied those skills to previous roles. In my current role, I have processed a dozen datasets on Uber’s H3 hexagonal spatial indexing system and stored the resulting parquets on AWS S3. I have worked with COGs, geoparquet files, and geoJSONs.    
+<br />   
+\indent In my day-to-day role, I develop modeling pipelines for soil carbon reductions and removals in python, write and rewrite code until it is clean and documented, complete numerous pull request reviews for colleagues, and read literature to enhance industry-specific knowledge. My professional goal is to always continue learning through solving complex problems that better the environment and the world.  
+<br />   
+\indent My mantra, both in personal and professional life, is "I can do hard things." I embody this daily by meditating, cold plunging, weightlifting, and practicing other habits and routines, which I track in a personal app I built specifically for optimizing my life. I am a go-getter, a powerhouse, a never-back-down kind of person. I am confident in my abilities to learn new skills and hone those I already possess. I am always looking for interesting problems to solve, particularly those that improve the world around me. Additionally, I surround myself with smart, hardworking, high quality humans who treat others with respect and share the same goals. I truly believe I would be a great fit for this role and am willing to rise to any challenge.  
+<br />   
+\indent Thank you for considering my application; I look forward to discussing the role further.    
+<br />   
+\noindent Best,  
+\includegraphics[width=1.75in]{pdf_files/signature.png}  
+\noindent Katherine (Katy) Yut  
